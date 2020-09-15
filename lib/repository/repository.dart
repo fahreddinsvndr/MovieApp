@@ -8,7 +8,7 @@ import 'package:dio/dio.dart';
 
 
 class MovieRepository {
-  final String apiKey = "f2923e6d299a67f0aec52f411b609dbc";
+  final String apiKey = "your token apiKey";
   static String mainUrl = "https://api.themoviedb.org/3";
   final Dio _dio = Dio();
   var getPopularUrl = '$mainUrl/movie/top_rated';
